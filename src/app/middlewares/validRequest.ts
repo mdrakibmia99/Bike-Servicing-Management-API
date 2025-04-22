@@ -13,7 +13,7 @@ export const validRequest = (schema: AnyZodObject) => {
         body: req.body,
       });
       req.body = parsedData.body;
-      console.log("Parsed data: ", parsedData.body);
+      // console.log("Parsed data: ", parsedData.body);
       return next();
     } catch (err) {
       next(err);

@@ -11,12 +11,12 @@ const customerCreateIntoDb = async (payload: Customer) => {
     email,
     phone,
   };
-  console.log("customerData", payload, customerData);
+  // console.log("customerData", payload, customerData);
   // ✅ Check if customer already exists
   const existingCustomer = await prisma.customer.findUnique({
     where: { email },
   });
-  console.log("existingCustomer", existingCustomer);
+  // console.log("existingCustomer", existingCustomer);
 
   if (existingCustomer) {
     throw new AppError(status.NOT_FOUND, "Customer already exists.");
