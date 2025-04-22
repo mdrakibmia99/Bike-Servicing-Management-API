@@ -1,13 +1,10 @@
 # 🚀 Bike Service API Backend
+## 🌐 Live Backend 🔗 [Vercel Deployment Link](https://bike-servicing-management-api-phi.vercel.app/) 
+
 
 A powerful backend API for managing a Bike Service platform. Built with Node.js, Express, PostgreSQL, and Prisma ORM, this project provides secure and scalable endpoints for customers, services and bikes.
 
----
 
-## 🌐 Live Backend
-🔗 [Render Deployment]()  
-
----
 
 ## 🛠️ Tech Stack
 
@@ -16,7 +13,7 @@ A powerful backend API for managing a Bike Service platform. Built with Node.js,
 - **Database**: PostgreSQL (hosted on Render)
 - **ORM**: Prisma
 - **Validation**: Zod
-- **Deployment**: Render (backend)
+- **Deployment**: Vercel
 - **Others**: Dotenv, CORS, Cookie-Parser, Http-Status-Codes
 
 ---
